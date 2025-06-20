@@ -1,0 +1,10 @@
+let valores = [];
+valores.push(parseInt(prompt("Número 1:")));
+valores.push(parseInt(prompt("Número 2:")));
+valores.push(parseInt(prompt("Número 3:")));
+valores.push(parseInt(prompt("Número 4:")));
+valores.push(parseInt(prompt("Número 5:")));
+let maior = Math.max(...valores);
+let menor = Math.min(...valores);
+console.log("Maior valor:", maior);
+console.log("Menor valor:", menor);
